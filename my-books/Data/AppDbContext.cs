@@ -13,6 +13,23 @@ namespace my_books.Data
         {
 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Book_Author>()
+                .HasOne(b => b.Book)
+                .WithMany(b => b.Book_Auhors)
+                .HasForeignKey(b => b.BookId);
+
+            modelBuilder.Entity<Book_Author>()
+                .HasOne(b => b.Author)
+                .WithMany(b => b.Book_Auhors)
+                .HasForeignKey(b => b.AuthorId);
+        }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Publisher> Publishers { get; set; }
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<Book_Author> book_Authors { get; set; }
+
     }
 }

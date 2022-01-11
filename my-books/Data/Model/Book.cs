@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -19,6 +20,15 @@ namespace my_books.Data.Model
         public string Author { get; set; } 
         public string CoverUrl { get; set; }
         public DateTime DateAdded { get; set; }
+
+        //Navigation Properties
+
+        public int PublisherId { get; set; }
+        [ForeignKey("PublisherId")]
+        public Publisher publisher { get; set; }
+        public List<Book_Author> Book_Auhors { get; set; }
+
+
 
     }
 }
