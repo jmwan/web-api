@@ -19,7 +19,6 @@ C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\my-books
 C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\my-books.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\my-books.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\staticwebassets\my-books.StaticWebAssets.Manifest.cache
-C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\staticwebassets\my-books.StaticWebAssets.xml
 C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\scopedcss\bundle\my-books.styles.css
 C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\my-books.RazorTargetAssemblyInfo.cache
 C:\Users\jackson.theuri\source\repos\my-books\my-books\obj\Debug\net5.0\my-books.csproj.CopyComplete

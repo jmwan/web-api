@@ -18,12 +18,12 @@ namespace my_books.Data
         {
             modelBuilder.Entity<Book_Author>()
                 .HasOne(b => b.Book)
-                .WithMany(b => b.Book_Auhors)
+                .WithMany(b => b.Book_Authors)
                 .HasForeignKey(b => b.BookId);
 
             modelBuilder.Entity<Book_Author>()
                 .HasOne(b => b.Author)
-                .WithMany(b => b.Book_Auhors)
+                .WithMany(b => b.Book_Authors)
                 .HasForeignKey(b => b.AuthorId);
         }
         public DbSet<Book> Books { get; set; }

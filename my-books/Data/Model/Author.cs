@@ -13,6 +13,6 @@ namespace my_books.Data.Model
         public string FullName { get; set; }
 
         //Navigation Properties
-        public List<Book_Author> Book_Auhors { get; set; }
+        public List<Book_Author> Book_Authors { get; set; }
     }
 }
